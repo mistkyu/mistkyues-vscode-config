@@ -1299,8 +1299,9 @@
                 "userSettingsLabel": "ctrl+shift+s"
             },
             "workbench.action.openSettings": {
-                "label": "Ctrl+,",
-                "userSettingsLabel": "ctrl+,"
+                "label": "Ctrl+Shift+.",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+shift+[Slash]"
             },
             "workbench.view.extensions": {
                 "label": "Ctrl+Shift+X",
@@ -1370,8 +1371,9 @@
                 "userSettingsLabel": "ctrl+shift+h"
             },
             "editor.action.commentLine": {
-                "label": "Ctrl+/",
-                "userSettingsLabel": "ctrl+/"
+                "label": "Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+shift+[Backslash]"
             },
             "editor.action.blockComment": {
                 "label": "Ctrl+Shift+A",
@@ -1456,10 +1458,12 @@
             },
             "workbench.action.zoomIn": {
                 "label": "Ctrl+=",
+                "isNative": false,
                 "userSettingsLabel": "ctrl+="
             },
             "workbench.action.zoomOut": {
                 "label": "Ctrl+-",
+                "isNative": false,
                 "userSettingsLabel": "ctrl+-"
             },
             "workbench.action.zoomReset": {
@@ -1470,12 +1474,12 @@
             "workbench.action.splitEditorUp": {
                 "label": "Ctrl+K Ctrl+\\",
                 "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+\\"
+                "userSettingsLabel": "ctrl+k ctrl+[Backslash]"
             },
             "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+\\",
+                "label": "Ctrl+K Ctrl+Shift+/",
                 "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+                "userSettingsLabel": "ctrl+k ctrl+shift+[IntlBackslash]"
             },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",
@@ -1523,20 +1527,18 @@
                 "label": "Ctrl+Shift+Y",
                 "userSettingsLabel": "ctrl+shift+y"
             },
-            "workbench.action.terminal.toggleTerminal": {
-                "label": "Ctrl+`",
-                "userSettingsLabel": "ctrl+`"
-            },
             "editor.action.toggleWordWrap": {
                 "label": "Alt+Z",
                 "userSettingsLabel": "alt+z"
             },
             "workbench.action.navigateBack": {
                 "label": "Ctrl+Alt+-",
+                "isNative": false,
                 "userSettingsLabel": "ctrl+alt+-"
             },
             "workbench.action.navigateForward": {
                 "label": "Ctrl+Shift+-",
+                "isNative": false,
                 "userSettingsLabel": "ctrl+shift+-"
             },
             "workbench.action.navigateToLastEditLocation": {
@@ -1631,8 +1633,9 @@
                 "userSettingsLabel": "ctrl+g"
             },
             "editor.action.jumpToBracket": {
-                "label": "Ctrl+Shift+\\",
-                "userSettingsLabel": "ctrl+shift+\\"
+                "label": "Ctrl+Shift+/",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+shift+[IntlBackslash]"
             },
             "editor.action.marker.nextInFiles": {
                 "label": "F8",
@@ -1689,10 +1692,6 @@
             "editor.debug.action.toggleInlineBreakpoint": {
                 "label": "Shift+F9",
                 "userSettingsLabel": "shift+f9"
-            },
-            "workbench.action.terminal.new": {
-                "label": "Ctrl+Shift+`",
-                "userSettingsLabel": "ctrl+shift+`"
             },
             "workbench.action.terminal.split": {
                 "label": "Ctrl+Shift+5",
