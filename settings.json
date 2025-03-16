@@ -256,7 +256,7 @@
 	],
 	"terminal.integrated.defaultProfile.linux": "bash",
 	"python.createEnvironment.trigger": "off",
-	"workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+	"workbench.colorTheme": "Monokai Dimmed",
 	"terminal.integrated.tabs.enabled": false,
 	"window.titleBarStyle": "native",
 	"window.menuBarVisibility": "toggle",
