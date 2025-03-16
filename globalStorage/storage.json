@@ -418,7 +418,7 @@
                     },
                     {
                         "id": "workbench.action.toggleMultiCursorModifier",
-                        "label": "Switch to Alt+Click for Multi-Cursor"
+                        "label": "Switch to Ctrl+Click for Multi-Cursor"
                     },
                     {
                         "id": "editor.action.toggleColumnSelection",
@@ -461,7 +461,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleMenuBar",
-                                    "label": "Menu &&Bar"
+                                    "label": "Menu &&Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
@@ -474,7 +475,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
-                                    "label": "S&&tatus Bar"
+                                    "label": "S&&tatus Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
@@ -495,7 +497,8 @@
                                         "items": [
                                             {
                                                 "id": "workbench.action.activityBarLocation.default",
-                                                "label": "&&Default"
+                                                "label": "&&Default",
+                                                "checked": true
                                             },
                                             {
                                                 "id": "workbench.action.activityBarLocation.top",
@@ -507,8 +510,7 @@
                                             },
                                             {
                                                 "id": "workbench.action.activityBarLocation.hide",
-                                                "label": "&&Hidden",
-                                                "checked": true
+                                                "label": "&&Hidden"
                                             }
                                         ]
                                     }
@@ -591,7 +593,8 @@
                                         "items": [
                                             {
                                                 "id": "workbench.action.editorActionsDefault",
-                                                "label": "Tab Bar"
+                                                "label": "Tab Bar",
+                                                "checked": true
                                             },
                                             {
                                                 "id": "workbench.action.editorActionsTitleBar",
@@ -599,8 +602,7 @@
                                             },
                                             {
                                                 "id": "workbench.action.hideEditorActions",
-                                                "label": "Hidden",
-                                                "checked": true
+                                                "label": "Hidden"
                                             }
                                         ]
                                     }
@@ -610,7 +612,8 @@
                                 },
                                 {
                                     "id": "editor.action.toggleMinimap",
-                                    "label": "&&Minimap"
+                                    "label": "&&Minimap",
+                                    "checked": true
                                 },
                                 {
                                     "id": "breadcrumbs.toggle",
@@ -619,7 +622,8 @@
                                 },
                                 {
                                     "id": "editor.action.toggleStickyScroll",
-                                    "label": "&&Sticky Scroll"
+                                    "label": "&&Sticky Scroll",
+                                    "checked": true
                                 },
                                 {
                                     "id": "editor.action.toggleRenderWhitespace",
@@ -628,7 +632,8 @@
                                 },
                                 {
                                     "id": "editor.action.toggleRenderControlCharacter",
-                                    "label": "Render &&Control Characters"
+                                    "label": "Render &&Control Characters",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -794,8 +799,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "checked": true
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -1351,8 +1355,8 @@
                 "userSettingsLabel": "ctrl+c"
             },
             "editor.action.clipboardPasteAction": {
-                "label": "Ctrl+PauseBreak",
-                "userSettingsLabel": "ctrl+pausebreak"
+                "label": "Ctrl+V",
+                "userSettingsLabel": "ctrl+v"
             },
             "actions.find": {
                 "label": "Ctrl+F",
@@ -1709,33 +1713,23 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#222222",
+    "themeBackground": "#1f1f1f",
     "windowSplash": {
-        "zoomLevel": 1,
+        "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#f7f1ff",
-            "background": "#222222",
-            "editorBackground": "#222222",
-            "titleBarBackground": "#191919",
-            "titleBarBorder": "#131313",
-            "activityBarBackground": "#131313",
-            "activityBarBorder": "#131313",
-            "sideBarBackground": "#191919",
-            "sideBarBorder": "#131313",
-            "statusBarBackground": "#191919",
-            "statusBarBorder": "#131313",
-            "statusBarNoFolderBackground": "#191919"
-        },
-        "layoutInfo": {
-            "sideBarSide": "left",
-            "editorPartMinWidth": 220,
-            "titleBarHeight": 0,
-            "activityBarWidth": 0,
-            "sideBarWidth": 348,
-            "auxiliarySideBarWidth": 0,
-            "statusBarHeight": 0,
-            "windowBorder": false
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
         }
     },
     "windowsState": {
@@ -1752,5 +1746,5 @@
         },
         "openedWindows": []
     },
-    "windowControlHeight": 36
+    "windowControlHeight": 35
 }

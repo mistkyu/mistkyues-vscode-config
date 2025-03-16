@@ -1,1 +1,0 @@
-This is my small visit telegram bot, where you can find any info about me and some socials!

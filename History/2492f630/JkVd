@@ -1,7 +1,0 @@
-FROM python
-
-COPY . /python
-
-WORKDIR /python
-
-CMD ["python", "main.py"]
