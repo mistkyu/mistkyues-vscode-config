@@ -1,1 +1,1 @@
- This is my vscode config json file! 
+This is my vscode settings.json file!
