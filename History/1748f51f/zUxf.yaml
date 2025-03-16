@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-first-deployment
+  lables:
+    app: my-first-deployment
+spec:
+  selector:
+    matchLabels:
+      project: myapp
+  template:
+    metadata:
+      labels:
+        project: myapp
+    spec:
+      containers:
+      - name: myapp-web
+        image: nginx
+        ports: 
+          - containerPort: 80

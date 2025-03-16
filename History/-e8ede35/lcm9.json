@@ -44,6 +44,7 @@
 	"window.density.editorTabHeight": "compact",
 	"editor.accessibilitySupport": "off",
 	"symbols.hidesExplorerArrows": false,
+	"workbench.iconTheme": "symbols",
 	"workbench.layoutControl.enabled": false,
 	"workbench.editor.editorActionsLocation": "hidden",
 	"workbench.editor.empty.hint": "hidden",
@@ -256,9 +257,7 @@
 	],
 	"terminal.integrated.defaultProfile.linux": "bash",
 	"python.createEnvironment.trigger": "off",
-	"workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+	"workbench.colorTheme": "Monokai Dimmed",
 	"terminal.integrated.tabs.enabled": false,
-	"window.titleBarStyle": "native",
-	"window.menuBarVisibility": "toggle",
-	"workbench.iconTheme": "symbols"
+	"window.titleBarStyle": "native"
 }
